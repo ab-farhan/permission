@@ -46,7 +46,7 @@
                                 <td>
                                     <div class="">
                                         <a href="{{route('admin.role.edit',['id'=>$role->id])}}"  class="btn btn-sm btn-warning"><i data-feather="edit-3"></i> <i class="feather feather-edit"></i></a>
-                                        <a href=""  class="btn btn-sm  btn-primary ">Permision</a>
+                                        <a href="{{route('admin.permission.assign',['id'=>$role->id])}}"  class="btn btn-sm  btn-primary ">Permision</a>
 
                                     </div>
                                 </td>

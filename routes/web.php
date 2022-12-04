@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\CrmController;
+use App\Http\Controllers\PermissionController;
 use App\Http\Controllers\RoleController;
 use Illuminate\Support\Facades\Route;
 
@@ -40,7 +41,7 @@ Route::middleware('auth')->group(function (){
     Route::get('/crms-edit/{id}',[CrmController::class,'edit'])->name('admin.crm.edit');
     Route::post('/crms-update/{id}',[CrmController::class,'update'])->name('admin.crm.update');
 
-    Route::get('/assign/permission/{id}',[CrmController::class,'create'])->name('admin.permission.assign');
+    Route::get('/assign/permission/{id}',[PermissionController::class,'create'])->name('admin.permission.assign');
 
 });
 require __DIR__.'/auth.php';

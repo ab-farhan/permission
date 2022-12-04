@@ -67,6 +67,94 @@
                 </div>
             </li>
 
+            <li class="nav-item  @yield('test','') ">
+                <a class="nav-link" data-bs-toggle="collapse" href="#emails1" role="button"
+                    aria-expanded="false" aria-controls="emails1">
+                    <i class="link-icon" data-feather="plus"></i>
+                    <span class="link-title">Featre 0</span>
+                    <i class="link-arrow" data-feather="chevron-down"></i>
+                </a>
+                <div class="collapse  @yield('test','') " id="emails1">
+                    <ul class="nav sub-menu">
+                        <li class="nav-item ">
+                            <a href="#" class="nav-link @yield('test','')">all</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">add</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">other</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+
+            <li class="nav-item  @yield('test','') ">
+                <a class="nav-link" data-bs-toggle="collapse" href="#emails2" role="button"
+                    aria-expanded="false" aria-controls="emails2">
+                    <i class="link-icon" data-feather="user"></i>
+                    <span class="link-title">Featre 1</span>
+                    <i class="link-arrow" data-feather="chevron-down"></i>
+                </a>
+                <div class="collapse  @yield('test','') " id="emails2">
+                    <ul class="nav sub-menu">
+                        <li class="nav-item ">
+                            <a href="#" class="nav-link @yield('test','')">all</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">add</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">other</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+
+            <li class="nav-item  @yield('test','') ">
+                <a class="nav-link" data-bs-toggle="collapse" href="#emails3" role="button"
+                    aria-expanded="false" aria-controls="emails3">
+                    <i class="link-icon" data-feather="users"></i>
+                    <span class="link-title">Featre 2</span>
+                    <i class="link-arrow" data-feather="chevron-down"></i>
+                </a>
+                <div class="collapse  @yield('test','') " id="emails3">
+                    <ul class="nav sub-menu">
+                        <li class="nav-item ">
+                            <a href="#" class="nav-link @yield('test','')">all</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">add</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">other</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+
+            <li class="nav-item  @yield('test','') ">
+                <a class="nav-link" data-bs-toggle="collapse" href="#emails4" role="button"
+                    aria-expanded="false" aria-controls="emails4">
+                    <i class="link-icon" data-feather="mail"></i>
+                    <span class="link-title">Featre 3</span>
+                    <i class="link-arrow" data-feather="chevron-down"></i>
+                </a>
+                <div class="collapse  @yield('test','') " id="emails4">
+                    <ul class="nav sub-menu">
+                        <li class="nav-item ">
+                            <a href="#" class="nav-link @yield('test','')">all</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">add</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">other</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+
 
         </ul>
 

@@ -10,8 +10,8 @@ class PermissionController extends Controller
 
     }
 
-    public  function create(Request $request){
-        
+    public  function create(Request $request, $id){
+        return view('backend.pages.permission.create');
     }
 
     public  function store(){
